@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Regina';
+    src: url('Regina.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    background: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#btn {
+    padding: 8px 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+    background: #ffffff;
+    color: #000000;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#no {
+    font-size: 40px;
+    font-family: 'Regina', sans-serif;
+    color: #000000;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
