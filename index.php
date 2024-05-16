@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Love to infinity and beyond</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" sizes="192x192" href="heart.svg">
+    <link rel="apple-touch-icon" href="heart.svg">
+    <meta name="msapplication-square310x310logo" content="heart.svg">
 </head>
 <body>
 <div id="container">

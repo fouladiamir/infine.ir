@@ -1,9 +1,8 @@
-let state = false;
-let normal_text = "nobody loves you...", special_text = "Just me honey 😏", normal_btn = "So who is it?",
+let state = false, normal_text = "nobody loves you...", special_text = "Just me honey 😏", normal_btn = "So who is it?",
     special_btn = "I can't stand it anymore 😍";
+
 document.getElementById("btn").addEventListener("click", () => {
     if (state) {
-
         document.getElementById('text').innerHTML = normal_text;
         document.getElementById('btn').innerHTML = normal_btn;
         document.getElementById('container').style.background = "#ffffff";
