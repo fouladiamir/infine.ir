@@ -1,12 +1,12 @@
 #remove www from url
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www.omember.ir [NC]
-RewriteRule ^(.*)$ https://omember.ir/$1 [L,R=301,NC]
+RewriteCond %{HTTP_HOST} ^www.infine.ir [NC]
+RewriteRule ^(.*)$ https://infine.ir/$1 [L,R=301,NC]
 
 #redirect to https
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://omember.ir/$1 [R,L]
+RewriteRule ^(.*)$ https://infine.ir/$1 [R,L]
 
 #block XSS attack
 <IfModule mod_rewrite.c>
